@@ -1,0 +1,813 @@
+*{
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  overflow-x: hidden;
+  background-color: black
+
+
+
+}
+
+.myHeader{
+  position: fixed;
+  height: 160px;
+  width: 100vw;
+  z-index: 1;
+
+}
+
+
+
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+.ModeDisplay{
+  display: none;
+}
+
+#mode{
+  position: absolute;
+  top: 97px;
+  left: 10px;
+}
+
+#mode1{
+  position: absolute;
+  top: 95px;
+  left: 25px;
+  color: black;
+}
+
+
+#LightMode{
+  display: none;
+  position: absolute;
+  top: 97px;
+  left: 10px;
+}
+
+#Light{
+    display: none;
+  position: absolute;
+  top: 95px;
+  left: 25px;
+  color: white;
+}
+
+
+/*
+#LogoTwo{
+  float: right;
+  height: 30px;
+  width: 30px;
+  position: relative;
+
+
+}
+*/
+
+#titleBar{
+  width: 700PX;
+  height: 700PX;
+}
+
+
+.MySearch{
+margin-left: auto;
+margin-right: auto;
+width: 30%;
+position: relative;
+top: 120px;
+left: 20px;
+}
+#search{
+  width: 90%;
+  color: #FFF
+}
+
+.StopDiv{
+  float: right;
+  position: relative;
+  right: 120px;
+  top: 90px;
+
+
+}
+
+#BtnStop{
+height: 30px;
+width: 60px;
+color: #FFF;
+position: relative;
+}
+
+.fresh{
+  /*background-color:#aaa;*/
+  height: 65px;
+  width: 100vw;
+  border: 1px solid #ddd;
+  margin-top: 200px;
+  overflow: hidden;
+
+
+}
+
+.heading{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  position: relative;
+  margin-top: 60px;
+  color: white;
+  left: 135px;
+
+}
+
+
+#freshLogo{
+position: relative;
+float: right;
+
+height: 60px;
+width: 60px;
+right: 3px;
+top: -45px;
+border-radius: 100px;
+}
+
+.city{
+  /*background-color:#aaa;*/
+  height: 65px;
+    width: 100vw;
+  border: 1px solid #ddd;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+#cityLogo{
+  position: relative;
+  float: right;
+
+  height: 60px;
+  width: 60px;
+  right: 3px;
+  top: -45px;
+  border-radius: 100px;
+}
+
+.classic{
+  /*background-color:#aaa;*/
+  height: 65px;
+  width: 100vw;
+  border: 1px solid #ddd;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+#classicLogo{
+  position: relative;
+  float: right;
+
+  height: 60px;
+  width: 60px;
+  right: 3px;
+  top: -45px;
+  border-radius: 100px;
+}
+
+
+.lagelu{
+  /*background-color:#aaa;*/
+  height: 65px;
+  width: 100vw;
+  border: 1px solid #ddd;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+#lageluLogo{
+  position: relative;
+  float: right;
+
+  height: 60px;
+  width: 60px;
+  right: 3px;
+  top: -45px;
+  border-radius: 100px;
+}
+
+
+
+
+#loadImage{
+height: 50px;
+width: 50px;
+position: relative;
+top: -8px;
+float: right;
+display: none;
+}
+
+.fad{
+  /*background-color:#aaa;*/
+  height: 65px;
+  width: 100vw;
+  border: 1px solid #ddd;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+#FadLogo{
+  position: relative;
+  float: right;
+
+  height: 60px;
+  width: 60px;
+  right: 3px;
+  top: -45px;
+  border-radius: 100px;
+}
+
+.ThirtyTwo{
+  /*background-color:#aaa;*/
+  width: 100vw;
+  height: 65px;
+  border: 1px solid #ddd;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+#Logo32{
+  position: relative;
+  float: right;
+
+  height: 60px;
+  width: 60px;
+  right: 3px;
+  top: -45px;
+  border-radius: 100px;
+}
+
+
+.NigeriaInfo{
+  /*background-color:#aaa;*/
+  height: 65px;
+  width: 100vw;
+  border: 1px solid #ddd;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+#NigInfoLogo{
+  position: relative;
+  float: right;
+
+  height: 60px;
+  width: 60px;
+  right: 3px;
+  top: -45px;
+  border-radius: 100px;
+}
+
+.Eagle{
+  /*background-color:#aaa;*/
+  height: 65px;
+  width: 100vw;
+  border: 1px solid #ddd;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+#EagleLogo{
+  position: relative;
+  float: right;
+
+  height: 60px;
+  width: 60px;
+  right: 3px;
+  top: -45px;
+  border-radius: 100px;
+}
+
+
+.Root{
+  /*background-color:#aaa;*/
+  height: 65px;
+  width: 100vw;
+  border: 1px solid #ddd;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+#RootLogo{
+  position: relative;
+  float: right;
+
+  height: 60px;
+  width: 60px;
+  right: 3px;
+  top: -45px;
+  border-radius: 100px;
+}
+
+
+.FreshTwo{
+  /*background-color:#aaa;*/
+  height: 65px;
+  width: 100vw;
+  border: 1px solid #ddd;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+#FreshLagosLogo{
+  position: relative;
+  float: right;
+
+  height: 60px;
+  width: 60px;
+  right: 3px;
+  top: -45px;
+  border-radius: 100px;
+}
+
+
+.LagosTalks{
+  /*background-color:#aaa;*/
+  height: 65px;
+  width: 100vw;
+  border: 1px solid #ddd;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+#LagosTalksLogo{
+  position: relative;
+  float: right;
+
+  height: 60px;
+  width: 60px;
+  right: 3px;
+  top: -45px;
+  border-radius: 100px;
+}
+
+.Arewa{
+  /*background-color:#aaa;*/
+  height: 65px;
+  width: 100vw;
+  border: 1px solid #ddd;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+#ArewaLogo{
+  position: relative;
+  float: right;
+
+  height: 60px;
+  width: 60px;
+  right: 3px;
+  top: -45px;
+  border-radius: 100px;
+}
+
+
+.Freedom{
+  /*background-color:#aaa;*/
+  height: 65px;
+  width: 100vw;
+  border: 1px solid #ddd;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+#FreedomLogo{
+  position: relative;
+  float: right;
+
+  height: 60px;
+  width: 60px;
+  right: 3px;
+  top: -45px;
+  border-radius: 100px;
+}
+
+
+
+.Liberty{
+  /*background-color:#aaa;*/
+  height: 65px;
+  width: 100vw;
+  border: 1px solid #ddd;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+#LibertyLogo{
+  position: relative;
+  float: right;
+
+  height: 60px;
+  width: 60px;
+  right: 3px;
+  top: -45px;
+  border-radius: 100px;
+}
+
+
+
+
+.Splash{
+  /*background-color:#aaa;*/
+  height: 65px;
+  width: 100vw;
+  border: 1px solid #ddd;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+#SplashLogo{
+  position: relative;
+  float: right;
+
+  height: 60px;
+  width: 60px;
+  right: 3px;
+  top: -45px;
+  border-radius: 100px;
+}
+
+
+.Agidigbo{
+  /*background-color:#aaa;*/
+  height: 65px;
+  width: 100vw;
+  border: 1px solid #ddd;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+#AgidigboLogo{
+  position: relative;
+  float: right;
+
+  height: 60px;
+  width: 60px;
+  right: 3px;
+  top: -45px;
+  border-radius: 100px;
+}
+
+
+
+.Inspirational{
+  /*background-color:#aaa;*/
+  height: 65px;
+  width: 100vw;
+  border: 1px solid #ddd;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+#InspirationalLogo{
+  position: relative;
+  float: right;
+
+  height: 60px;
+  width: 60px;
+  right: 3px;
+  top: -45px;
+  border-radius: 100px;
+}
+
+
+.SMA{
+  /*background-color:#aaa;*/
+  height: 65px;
+  width: 100vw;
+  border: 1px solid #ddd;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+#SMALogo{
+  position: relative;
+  float: right;
+
+  height: 60px;
+  width: 60px;
+  right: 3px;
+  top: -45px;
+  border-radius: 100px;
+}
+
+
+.TalkSport1{
+  /*background-color:#aaa;*/
+  height: 65px;
+  width: 100vw;
+  border: 1px solid #ddd;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+#TalkSport1Logo{
+  position: relative;
+  float: right;
+
+  height: 60px;
+  width: 60px;
+  right: 3px;
+  top: -25px;
+  border-radius: 100px;
+}
+
+
+.TalkSport2{
+  /*background-color:#aaa;*/
+  height: 65px;
+  width: 100vw;
+  border: 1px solid #ddd;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+#TalkSport2Logo{
+  position: relative;
+  float: right;
+
+  height: 60px;
+  width: 60px;
+  right: 3px;
+  top: -35px;
+  border-radius: 100px;
+}
+
+.banner1, .banners1,.banner2, .banners2,
+.banner3, .banners3,.banner4, .banners4,.banner5,
+.banners5, .banner6, .banners6,
+.banner7, .banners7,.banner8, .banners8,
+.banner9, .banners9,.banner10, .banners10,.banner11,
+.banners11,.arewa, .arewas,
+.banner13, .banners13,.banner14, .banners14,
+.banner15, .banners15,.banner16, .banners16,.banner17,
+.banners17, .banner18, .banners18,
+.banner19, .banner20
+{
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #000;
+  color: #FFF;
+  text-align: center;
+}
+
+
+
+
+/************************* Mobile *********************************************/
+
+
+@media only screen and (max-width:820px) {
+
+  *{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    overflow-x: hidden;
+    background-color: #000
+  }
+
+  .StopDiv{
+    position: relative;
+    top: 150px;
+    left: -10px;
+  }
+
+
+  #BtnStop{
+
+  height: 30px;
+  width: 60px;
+  position: relative;
+
+  }
+
+
+
+
+
+  .MySearch{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  position: relative;
+  top: 100px;
+
+  }
+
+  #search{
+    width: 90%;
+    color: #FFF;
+    position: relative;
+    left: 42px
+  }
+
+
+  .heading{
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 100px;
+  left: 12px;
+
+  }
+
+  .fresh{
+    /*background-color:#aaa;*/
+    height: 65px;
+    width: 100vw;
+    border: 1px solid #ddd;
+    margin-top: 200px;
+    overflow: hidden;
+  }
+
+  .myHeader{
+    height: 200px;
+  }
+
+#LogoTwo{
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+
+}
+
+
+}
+
+
+
+@media only screen and (max-width:912px) {
+
+  .MySearch{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+  }
+
+  #search{
+    width: 90%;
+    color: #FFF;
+    position: relative;
+    left: 35px
+  }
+
+
+  .fresh{
+    /*background-color:#aaa;*/
+    height: 65px;
+    width: 100vw;
+    border: 1px solid #ddd;
+    margin-top: 220px;
+    overflow: hidden;
+  }
+
+  .heading{
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -10px;
+  left: 25px
+
+
+  }
+
+}
+
+
+
+@media only screen and (max-width:280px) {
+
+  .heading{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -40px;
+    left: 20px;
+    width: 100%;
+    font-size: 21px;
+    color: red;
+
+
+  }
+
+
+    .MySearch{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+    }
+
+    #search{
+      width: 100vw;
+      color: #FFF;
+      position: relative;
+      left: 0px;
+
+    }
+
+
+      #BtnStop{
+      margin-left: auto;
+      margin-right: auto;
+      height: 30px;
+      width: 100px;
+      position: relative;
+      top: 10px;
+      right: 15px
+
+      }
+
+      #LogoTwo{
+        position: absolute;
+        top: 25px
+
+      }
+
+}
+
+
+
+@media only screen and (max-width:1024px) {
+
+
+  .heading{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -30px;
+    left: 330px;
+    width: 100%;
+    font-size: 30px
+
+
+  }
+
+  .fresh{
+    /*background-color:#aaa;*/
+    height: 65px;
+    width: 100vw;
+    border: 1px solid #ddd;
+    margin-top: 200px;
+    overflow: hidden;
+  }
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width:1024px) {
+
+
+
+    .heading{
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      top: -30px;
+      left: 30px;
+      width: 100%;
+      font-size: 30px
+
+
+    }
+
+}
